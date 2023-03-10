@@ -10,12 +10,10 @@ public class train{
         double l2 = in.nextDouble();
         System.out.println("Choose an option:\n1. same direction\n2. diffrent direction");
         int ch = in.nextInt();
-        double d = l1+l2;
-        double rv;
-        double t;
+        double d = l1+l2; double rv; double t;
         switch(ch){
             case 1:
-                rv = v1-v2;
+                rv = Math.abs(v1-v2);
                 t = (double)d/rv;
                 System.out.println("Relative Velocity: " + rv + " m/s");
                 System.out.println("Time taken: " + t + " s");
