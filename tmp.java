@@ -1,33 +1,11 @@
-
-/**
- * Write a description of class tmp here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class tmp
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class tmp
-     */
-    public tmp()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+public class tmp{
+    public static void main(int n){
+        switch(n){
+            case 10: case 4: case 2:
+            System.out.println("In a case");
+            break;
+            default: 
+                System.out.println("Case default");
+        }
     }
 }
